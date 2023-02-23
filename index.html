@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <title>Piala Dunia 2022</title>
+  </head>
+  <body>
+    <header>
+      <div class="jumbotron">
+        <div class="left">
+          <img src="assets\image\logo_world_cup.png" alt="" />
+        </div>
+        <div class="right">
+          <h1>Piala Dunia 2022</h1>
+          <p>Turnamen edisi ini berlangsung di Qatar pada 20 November hingga 18 Desember 2022</p>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#peserta">Peserta</a></li>
+          <li><a href="#juara">Juara</a></li>
+          <li><a href="#penghargaan">Penghargaan</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="content">
+        <article id="peserta" class="peserta">
+          <img src="assets/image/grup.jpg" alt="Group" class="img-content" />
+          <section>
+            <h1>Peserta Piala Dunia</h1>
+            <p>
+              Diikuti oleh 32 Negara dan 6 Benua yaitu zona Asia, Afrika, Amerika dan Karibia, Amerika Selatan, Eropa, dan Oseania.Terbagi menjadi 8
+              Grup dan masing masing Grup berisi 4 Tim
+            </p>
+          </section>
+        </article>
+        <article id="juara">
+          <section>
+            <h3>Argentina Keluar Sebagai Juara Piala Dunia 2022 Qatar</h3>
+            <p>Mengalahkan Prancis melalui drama adu pinalti,Argentina berhasil memenangkan pertandingan yang cukup menguras emosi tersebut</p>
+          </section>
+          <img src="assets/image/juara.jpg" alt="champions" class="img-content-right" />
+        </article>
+        <article id="penghargaan">
+          <div class="container">
+            <!-- Best player -->
+            <div class="carousel">
+              <div class="nomor">1/4</div>
+              <img src="assets/image/bestplayer.jpg" alt="" />
+            </div>
+            <!-- Top Scorer -->
+            <div class="carousel">
+              <div class="nomor">2/4</div>
+              <img src="assets/image/gb.jpg" alt="" />
+            </div>
+            <!-- Best young player -->
+            <div class="carousel">
+              <div class="nomor">3/4</div>
+              <img src="assets/image/enzo.jpg" alt="" />
+            </div>
+            <!-- Best goalkeeper -->
+            <div class="carousel">
+              <div class="nomor">4/4</div>
+              <img src="assets/image/emi.jpg" alt="" />
+            </div>
+
+            <!--Button  -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!-- judul foto -->
+            <div class="judul">
+              <p id="judul"></p>
+            </div>
+
+            <div class="row">
+              <div class="column">
+                <img class="demo tunjuk" src="assets/image/bestplayer.jpg" style="width: 100%" onclick="currentSlide(1)" alt="Best Player" />
+              </div>
+              <div class="column">
+                <img class="demo tunjuk" src="assets/image/gb.jpg" style="width: 100%" onclick="currentSlide(2)" alt="Top Scorer" />
+              </div>
+              <div class="column">
+                <img class="demo tunjuk" src="assets/image/enzo.jpg" style="width: 100%" onclick="currentSlide(3)" alt="Best Young Player" />
+              </div>
+              <div class="column">
+                <img class="demo tunjuk" src="assets/image/emi.jpg" style="width: 100%" onclick="currentSlide(4)" alt="Best Goalkeeper" />
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <aside>
+          <article class="profile card">
+            <header>
+              <figure><img src="assets/image/bgmerah.jpg" alt="" /></figure>
+              <h2>Adib Nasyrul Shodiq</h2>
+              <p>Cloud Computing</p>
+              <p>Universitas Gunadarma</p>
+            </header>
+          </article>
+        </aside>
+      </div>
+    </main>
+    <footer><h2>Piala Dunia 2022 &#169; Adib Nasyrul Shodiq</h2></footer>
+    <script src="assets/javascripts/carousel.js"></script>
+  </body>
+</html>
